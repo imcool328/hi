@@ -1,0 +1,103 @@
+	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+	local Window = Library.CreateLib("Showcaser hub Da hood", "DarkTheme")
+
+	if game.PlaceId == 2788229376 then
+
+			--main
+			local Main = Window:NewTab("Main")
+			local MainSection = Main:NewSection("Main")
+
+			MainSection:NewButton("Speed tool", "Gives you Speed tool and Fake Macro tool", function()
+				loadstring(game:HttpGetAsync("https://pastebin.com/raw/XiqsUXHj", true))()
+			end)
+
+
+			MainSection:NewButton("aimlock tool", "Gives you a tool that aimlock’s on player’s when clicked", function()
+				loadstring(game:HttpGet("https://pastebin.com/raw/j08xM9mW", true))()
+			end)
+
+
+			MainSection:NewButton("CrispyGo Faded", "Execute’s CrispyGo Faded script(V to toggle)", function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded-Grid/main/YesEpic", true))()
+			end)
+
+			MainSection:NewButton("KeyBoard-FE", "Execute’s the Keyboard script(For mobile only)", function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+			end)
+		end
+
+			local Credits = Window:NewTab("Credits")
+			local CreditsSection = Credits:NewSection("Credit’s for scripts that i used in the Hub.")
+
+			CreditsSection:NewButton("Credits for owner of the speed tool and Q tool", "", function()
+
+			end)
+
+			CreditsSection:NewButton("Credits for CrispyGo for the CrispyGo Faded script", "", function()
+			
+			end)
+			CreditsSection:NewButton("Credits for owner of the Future Hub script", "", function()
+
+			end)
+
+if game.PlaceId == 142823291 then
+	
+	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+	local Window = Library.CreateLib("Showcaser hub Murder Mystery 2", "DarkTheme")
+
+	local Main = Window:NewTab("Main")
+	local MainSection = Main:NewSection("Main")
+	
+	MainSection:NewButton("Eclipse MM2 script", "Execute’s Eclipse mm2 script", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+	end)
+
+	MainSection:NewButton("KeyBoard-FE", "Execute’s the Keyboard script(For mobile only)", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+	end)
+	
+	MainSection:NewButton("Vynixu Hub", "Execute’s the Vynixu Hub script", function()
+		loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+	end)
+	
+	local Credits = Window:NewTab("Credits")
+	local CreditsSection = Credits:NewSection("Credit’s for scripts that i used in the Hub.")
+	
+
+	CreditsSection:NewButton("Credits for owner of the Vynixu Hub script", "", function()
+
+	end)
+	CreditsSection:NewButton("Credits for owner of the KeyBoard-FE script", "", function()
+
+	end)
+	
+	CreditsSection:NewButton("Credits for owner of the Eclipse Hub script", "", function()
+
+	end)
+	
+if game.PlaceId == 6872265039 then
+	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+	local Window = Library.CreateLib("Showcaser hub Bedwars", "DarkTheme")
+	
+	local Main = Window:NewTab("Main")
+	local MainSection = Main:NewSection("Main")
+	
+	MainSection:NewButton("Vape v4", "Execute’s Vape v4 bedwars script(if executed in lobby it will auto inject in next game)", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end)
+	
+	MainSection:NewButton("Future Hub", "Execute’s Future Hub bedwars script(if executed in lobby it will not auto inject in next game)", function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+	end)
+	
+	local Credits = Window:NewTab("Credits")
+	local CreditsSection = Credits:NewSection("Credit’s for scripts that i used in the Hub.")
+	
+	CreditsSection:NewButton("Credits for owner of the Vape v4 script", "", function()
+
+	end)
+	
+	CreditsSection:NewButton("Credits for owner of the Future Hub script", "", function()
+
+	end)
+end
